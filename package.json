@@ -1,0 +1,20 @@
+{
+  "name": "p2p-signal",
+  "version": "1.0.0",
+  "description": "P2P webRTC",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live",
+    "signalhub": "signalhub listen -p 8080"
+  },
+  "author": "mehmet",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^11.6.3",
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "signalhub": "^4.9.0",
+    "webrtc-swarm": "^2.9.0"
+  }
+}
