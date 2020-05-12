@@ -7,8 +7,8 @@ function Player (data) {
   this.y = 0
   this.element = document.createElement('video')
   Object.assign(this.element.style, {
-    width: '64px',
-    height: '64px',
+    width: '128px',
+    height: '128px',
     position: 'absolute',
     top: '0px',
     left: '0px',
